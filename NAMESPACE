@@ -1,0 +1,6 @@
+export(pii)
+importFrom(stats, aggregate, median)
+importFrom(infotheo, entropy, mutinformation)
+importFrom(pROC, roc, auc)
+
+importFrom("stats", "var")
