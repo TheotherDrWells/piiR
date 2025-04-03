@@ -11,9 +11,9 @@ LazyData: true
 Imports: 
     stats (>= 3.6.0),
     infotheo (>= 1.2.0),
-    pROC (>= 1.18.0),
-    piiR (>= 0.1.0)  
+    pROC (>= 1.18.0)
 Suggests: 
+    piiR (>= 0.1.0),
     rmarkdown (>= 2.23),
     knitr (>= 1.42)
 VignetteBuilder: knitr
