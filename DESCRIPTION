@@ -12,7 +12,7 @@ Imports:
     stats (>= 3.6.0),
     infotheo (>= 1.2.0),
     pROC (>= 1.18.0),
-    piiR (>= 0.1.0)  # Add this line
+    piiR (>= 0.1.0)  
 Suggests: 
     rmarkdown (>= 2.23),
     knitr (>= 1.42)
