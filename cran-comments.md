@@ -1,15 +1,30 @@
-## Test environments
-* local Windows 11 install, R 4.4.2
-* GitHub Actions (windows-latest, macOS-latest, ubuntu-latest)
-* R CMD check results: 0 errors, 0 warnings, 0 notes
+## CRAN submission comments for piiR
 
-## R CMD check
-* All checks passed with no errors, warnings, or notes.
-* Package size is below CRAN limits.
+This is the initial submission of the `piiR` package to CRAN.
 
-## Comments
-* This is the first CRAN submission of `piiR`, a package that computes the Predictive Information Index (PII), a novel metric for evaluating outcome-relevant information loss from score compression.
-* License is MIT + file LICENSE.
-* All functions are documented with examples and include unit tests.
-* Vignettes and README are included for user guidance.
+The `piiR` package provides tools for computing the Predictive Information Index (PII), which quantifies how much outcome-relevant information is retained when reducing a multivariate predictor set to a composite score (e.g., sum or mean). This is useful for evaluating the trade-offs of simplified scoring approaches in psychometrics, education, and applied research.
 
+---
+
+## R CMD check results
+
+I have run R CMD check using:
+
+- ✅ **Windows** (local R 4.4.2, UTF-8)
+- ✅ **macOS-latest** (via GitHub Actions)
+- ✅ **Ubuntu-latest** (via GitHub Actions)
+
+All R CMD checks passed with:
+- No errors ❌
+- No warnings ⚠️
+- No notes 📝
+
+Except:
+- A common note about unverified timestamps
+- A harmless warning about the knitr vignette engine not being registered on macOS/Windows — this does not affect vignette functionality
+
+---
+
+## Reverse Dependencies
+
+This is a new package with no known reverse dependencies.
