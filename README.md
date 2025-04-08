@@ -1,3 +1,8 @@
+# piiR <img src="inst/logo.png" align="right" height="100" />
+
+[![R-CMD-check](https://github.com/TheotherDrWells/piiR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/TheotherDrWells/piiR/actions/workflows/R-CMD-check.yaml)
+
+
 # piiR <img src="https://raw.githubusercontent.com/TheotherDrWells/piiR/main/inst/logo.png" align="right" height="100" />
 
 [![R-CMD-check](https://github.com/TheotherDrWells/piiR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/TheotherDrWells/piiR/actions/workflows/R-CMD-check.yaml)
