@@ -1,0 +1,14 @@
+Package: piiR
+Type: Package
+Title: Predictive Information Index (PII)
+Version: 0.2.0
+Author: Kevin E. Wells [aut]
+Maintainer: Kevin E. Wells <kevin.e.wells@usm.edu>
+Description: A simple implementation of the Predictive Information Index (PII) using mutual information and entropy from the infotheo package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: stats (>= 3.6.0), infotheo (>= 1.2.0), pROC (>= 1.18.0)
+Suggests: rmarkdown (>= 2.23), knitr (>= 1.42)
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
